@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontre o imóvel dos seus sonhos com a melhor imobiliária do mercado">
+    <title>Premium Imóveis - Sua Casa dos Sonhos Está Aqui</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2>Premium Imóveis</h2>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="#inicio" class="nav__link">Início</a></li>
+                <li><a href="#propriedades" class="nav__link">Propriedades</a></li>
+                <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                <li><a href="#contato" class="nav__link">Contato</a></li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">Encontre o Imóvel dos Seus Sonhos</h1>
+                <p class="hero__description">Mais de 10 anos transformando sonhos em realidade. Sua nova casa está esperando por você.</p>
+                <div class="hero__buttons">
+                    <a href="#propriedades" class="btn btn--primary">Ver Propriedades</a>
+                    <a href="#contato" class="btn btn--secondary">Fale Conosco</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="images/Imagem principal do hero.jpeg" alt="Imóvel de luxo" class="hero__img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div class="hero__image-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats__container container">
+            <div class="stats__item">
+                <h3 class="stats__number">500+</h3>
+                <p class="stats__label">Imóveis Vendidos</p>
+            </div>
+            <div class="stats__item">
+                <h3 class="stats__number">10+</h3>
+                <p class="stats__label">Anos de Experiência</p>
+            </div>
+            <div class="stats__item">
+                <h3 class="stats__number">98%</h3>
+                <p class="stats__label">Clientes Satisfeitos</p>
+            </div>
+            <div class="stats__item">
+                <h3 class="stats__number">50+</h3>
+                <p class="stats__label">Parceiros</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section class="properties" id="propriedades">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Propriedades em Destaque</h2>
+                <p class="section__subtitle">Descubra os melhores imóveis selecionados especialmente para você</p>
+            </div>
+            <div class="properties__grid">
+                <div class="property__card">
+                    <div class="property__image property__image--1">
+                        <img src="images/apart moderno.jpeg" alt="Apartamento Moderno" class="property__img" onerror="this.style.display='none';">
+                    </div>
+                    <div class="property__content">
+                        <span class="property__badge property__badge--sale">Venda</span>
+                        <h3 class="property__title">Apartamento Moderno</h3>
+                        <p class="property__location">📍 Centro, São Paulo</p>
+                        <div class="property__details">
+                            <span>3 Quartos</span>
+                            <span>2 Banheiros</span>
+                            <span>120m²</span>
+                        </div>
+                        <div class="property__price">R$ 850.000</div>
+                        <a href="#contato" class="property__btn">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="property__card">
+                    <div class="property__image property__image--2">
+                        <img src="images/property-2.jpg" alt="Casa com Piscina" class="property__img" onerror="this.style.display='none';">
+                    </div>
+                    <div class="property__content">
+                        <span class="property__badge property__badge--rent">Aluguel</span>
+                        <h3 class="property__title">Casa com Piscina</h3>
+                        <p class="property__location">📍 Jardins, São Paulo</p>
+                        <div class="property__details">
+                            <span>4 Quartos</span>
+                            <span>3 Banheiros</span>
+                            <span>250m²</span>
+                        </div>
+                        <div class="property__price">R$ 8.500/mês</div>
+                        <a href="#contato" class="property__btn">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="property__card">
+                    <div class="property__image property__image--3">
+                        <img src="images/cbert-luxo.jpeg" alt="Cobertura de Luxo" class="property__img" onerror="this.style.display='none';">
+                    </div>
+                    <div class="property__content">
+                        <span class="property__badge property__badge--sale">Venda</span>
+                        <h3 class="property__title">Cobertura de Luxo</h3>
+                        <p class="property__location">📍 Vila Olímpia, São Paulo</p>
+                        <div class="property__details">
+                            <span>5 Quartos</span>
+                            <span>4 Banheiros</span>
+                            <span>380m²</span>
+                        </div>
+                        <div class="property__price">R$ 2.500.000</div>
+                        <a href="#contato" class="property__btn">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__text">
+                    <h2 class="section__title">Por Que Escolher a Premium Imóveis?</h2>
+                    <p class="about__description">
+                        Somos uma imobiliária comprometida em oferecer o melhor serviço do mercado. 
+                        Com mais de 10 anos de experiência, ajudamos milhares de famílias a encontrar 
+                        o imóvel perfeito.
+                    </p>
+                    <div class="about__features">
+                        <div class="feature__item">
+                            <div class="feature__icon">✓</div>
+                            <div class="feature__text">
+                                <h4>Atendimento Personalizado</h4>
+                                <p>Nossos consultores dedicam tempo para entender suas necessidades</p>
+                            </div>
+                        </div>
+                        <div class="feature__item">
+                            <div class="feature__icon">✓</div>
+                            <div class="feature__text">
+                                <h4>Portfólio Exclusivo</h4>
+                                <p>Acesso aos melhores imóveis do mercado antes de todos</p>
+                            </div>
+                        </div>
+                        <div class="feature__item">
+                            <div class="feature__icon">✓</div>
+                            <div class="feature__text">
+                                <h4>Processo Transparente</h4>
+                                <p>Sem surpresas. Todo o processo é claro e documentado</p>
+                            </div>
+                        </div>
+                        <div class="feature__item">
+                            <div class="feature__icon">✓</div>
+                            <div class="feature__text">
+                                <h4>Suporte Completo</h4>
+                                <p>Acompanhamento desde a busca até a entrega das chaves</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <img src="images/Imagem principal do hero.jpeg" alt="Imóvel de luxo" class="about__img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="about__image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Entre em Contato</h2>
+                <p class="section__subtitle">Estamos prontos para ajudar você a encontrar o imóvel perfeito</p>
+            </div>
+            <div class="contact__content">
+                <form class="contact__form" id="contact-form">
+                    <div class="form__group">
+                        <input type="text" class="form__input" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" class="form__input" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="tel" class="form__input" placeholder="Seu telefone" required>
+                    </div>
+                    <div class="form__group">
+                        <textarea class="form__input form__textarea" placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">Enviar Mensagem</button>
+                </form>
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <div class="contact__icon">📞</div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(22) 99751-8427</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">✉️</div>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>evolutivatech922@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">📍</div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Cabo Frio, Rio de Janeiro, Brasil</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">🕒</div>
+                        <div>
+                            <h4>Horário</h4>
+                            <p>Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 13h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Premium Imóveis</h3>
+                    <p>Transformando sonhos em realidade desde 2013</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#propriedades">Propriedades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Redes Sociais</h4>
+                    <div class="footer__social">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">👤</a>
+                        <a href="#" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Premium Imóveis. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

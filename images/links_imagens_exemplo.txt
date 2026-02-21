@@ -1,0 +1,42 @@
+LINKS DE IMAGENS DE EXEMPLO - Unsplash
+========================================
+
+Você pode baixar estas imagens diretamente clicando nos links ou copiando a URL.
+
+HERO IMAGE (Imagem Principal):
+https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=800&fit=crop
+Ou busque: "luxury real estate" no Unsplash
+
+PROPERTY 1 (Apartamento Moderno):
+https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop
+Ou busque: "modern apartment interior" no Unsplash
+
+PROPERTY 2 (Casa com Piscina):
+https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=800&h=600&fit=crop
+Ou busque: "house with pool" no Unsplash
+
+PROPERTY 3 (Cobertura de Luxo):
+https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop
+Ou busque: "luxury penthouse" no Unsplash
+
+ABOUT IMAGE (Seção Sobre):
+https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1000&h=700&fit=crop
+Ou busque: "real estate team" no Unsplash
+
+========================================
+INSTRUÇÕES PARA BAIXAR:
+========================================
+
+1. Clique em qualquer link acima
+2. Clique no botão de download (ícone de seta para baixo)
+3. Escolha o tamanho apropriado
+4. Renomeie o arquivo conforme necessário:
+   - hero-image.jpg
+   - property-1.jpg
+   - property-2.jpg
+   - property-3.jpg
+   - about-image.jpg
+5. Coloque os arquivos na pasta "images"
+
+TODAS AS IMAGENS DO UNSPLASH SÃO GRATUITAS E PODEM SER USADAS COMERCIALMENTE!
+
